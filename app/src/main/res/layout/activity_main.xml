@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/udacity_mark"
+        android:background="#000"
+        android:scaleType="center"
+        android:layout_width="match_parent"
+        android:layout_height="220dp" />
+
+    <TextView
+        android:text="Udacity"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"
+        android:paddingTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+<LinearLayout
+
+    android:paddingTop="10dp"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src ="@drawable/place"
+        android:padding="3dp"
+        android:layout_weight="0"
+        android:layout_width="20dp"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:text="2465 Latham St, Mountain View, CA 94043"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textSize="14sp"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+   </LinearLayout>
+
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src ="@drawable/sm"
+            android:padding="3dp"
+            android:layout_weight="0"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:text="650-555-5555"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:paddingTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src ="@drawable/http"
+            android:padding="3dp"
+            android:layout_weight="0"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:text="udacity.com"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/order_button"
+        android:text="Order"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center"
+        android:onClick="nanodegree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
