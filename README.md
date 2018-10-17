@@ -1,4 +1,4 @@
-# HelloAndroid
+# Hello Android
 
 This is stage 1 of Android Basic Nanodegree.
 
